@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Marc Daniel</div>
+      <div>
+        <ul class="nav-links1">
+          <li><a href="#id">ID Number</a></li>
+          <li><a href="#name">Name</a></li>
+          <li><a href="#birthmonth">Birthmonth</a></li>
+          <li><a href="#address">Address</a></li>
+          <li><a href="#color">Color</a></li>
+          <li><a href="#reason">Reason</a></li>
+          <li><a href="#lovelanguage">Love Language</a></li>
+          <li><a href="#career">Career/Job</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Marc Daniel</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#id" onclick="toggleMenu()">ID Number</a></li>
+          <li><a href="#name" onclick="toggleMenu()">Name</a></li>
+          <li><a href="#birthmonth" onclick="toggleMenu()">Birthmonth</a></li>
+          <li><a href="#address" onclick="toggleMenu()">Address</a></li>
+          <li><a href="#color" onclick="toggleMenu()">Color</a></li>
+          <li><a href="#reason" onclick="toggleMenu()">Reason</a></li>
+          <li><a href="#lovelanguage" onclick="toggleMenu()">Love Language</a></li>
+          <li><a href="#career" onclick="toggleMenu()">Career/Job</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/home.png" alt="Marc Daniel profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1" style="font-size: 25px">Hello, I'm</p>
+        <h1 class="title">Marc Daniel</h1>
+        <p class="section__text__p2">BS in Information Technology</p>
+      </div>
+    </section>
+    <section id="id">
+      <div class="text-container"><i class="title1"><b>Student ID Number</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container2">
+          <img
+            src="./assets/id.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1>Student ID Number: <br> 2022-00407</h1>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#name'"
+      />
+    </section>
+    <section id="name">
+      <div class="text-container"><i class="title1"><b>Full Name and Nick Name</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container3">
+          <img
+            src="./assets/mac.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1>Milano, Marc Daniel C.</h1>
+            <p style="font-size: 25px;">"Mac/Macmac or Dan/Dandan"</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#birthmonth'"
+      />
+    </section>
+    <section id="birthmonth">
+      <div class="text-container"><i class="title1"><b>Birthmonth</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container1">
+          <img
+            src="./assets/march.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1 style="position: center;">"March"</h1>
+            <p style="font-size: 30px;">March is the third month of the year in both the Julian and Gregorian calendars.</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#address'"
+      />
+    </section>
+    <section id="address">
+      <div class="text-container"><i class="title1"><b>Barangay you are currently living in San Fernando</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container4">
+          <br><br>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15409.830419803338!2d120.64308864202775!3d15.078087736549795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f132687ac2df%3A0xfe9317540704d6f0!2sMalpitic%2C%20San%20Fernando%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1712512111851!5m2!1sen!2sph" width="600" height="400" style="border:0; display: center;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h3>Barangay Malpitic CSFP</h3>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#color'"
+      />
+    </section>
+    <section id="color">
+      <div class="text-container"><i class="title1"><b>Favorite Color</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container1">
+          <img
+            src="./assets/black.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1>Black</h1>
+            <p>Black is a color that results from the absence or complete absorption of visible light.</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#reason'"
+      />
+    </section>
+    <section id="reason">
+      <div class="text-container"><i class="title1"><b>In one word, why have you chosen to pursue a BSIT</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container5">
+          <img
+            src="./assets/fulfillment.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1>Fulfillment</h1>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#lovelanguage'"
+      />
+    </section>
+    <section id="lovelanguage">
+      <div class="text-container"><i class="title1"><b>Which love language speaks to you the most?</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container6">
+          <img
+            src="./assets/pt.jpeg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1>Physical Touch</h1>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#career'"
+      />
+    </section>
+    <section id="career">
+      <div class="text-container"><i class="title1"><b>What career or job are you aspiring to have in the future</b></i></div>
+      <div class="section-container">
+        <div class="section__pic-container7">
+          <img
+            src="./assets/fsd.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <h1>Full Stack <br> Developer</h1>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#profile'"
+      />
+    </section>    
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">ID Number</a></li>
+            <li><a href="#experience">Name</a></li>
+            <li><a href="#projects">Birthmonth</a></li>
+            <li><a href="#address">Address</a></li>
+            <li><a href="#color">Color</a></li>
+            <li><a href="#reason">Reason</a></li>
+            <li><a href="#lovelanguage">Love Language</a></li>
+            <li><a href="#career">Career/Job</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
